@@ -43,11 +43,11 @@ xdg = "2.2"
 whoami = "0.6.0"
 
 [dependencies.librespot]
-version = "0.1"
+version = "0.1.0"
 default-features = false
 features = ["with-tremor"]
 git = "https://github.com/sabino/librespot"
-branch = "dev"
+branch = "dev-2"
 
 [dev-dependencies]
 env_logger = "0.7"
