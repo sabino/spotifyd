@@ -2186,7 +2186,7 @@ dependencies = [
 [[package]]
 name = "rspotify"
 version = "0.7.0"
-source = "git+https://github.com/sabino/rspotify#706964224a04040052fa64b644295146072af814"
+source = "git+https://github.com/sabino/rspotify#a55d3c9f709be1f0d8c5832a74b2cd57d42ea1ba"
 dependencies = [
  "base64 0.10.1 (registry+https://github.com/rust-lang/crates.io-index)",
  "chrono 0.4.10 (registry+https://github.com/rust-lang/crates.io-index)",
@@ -3241,7 +3241,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 [[package]]
 name = "webbrowser"
 version = "0.5.2"
-source = "git+https://github.com/sabino/webbrowser-rs#55d81cf7867f1bfaec3c2992cc881017e8525cf1"
+source = "git+https://github.com/sabino/webbrowser-rs#852776530c8589b55de9958de29ff6cbbc86a810"
 dependencies = [
  "widestring 0.4.0 (registry+https://github.com/rust-lang/crates.io-index)",
  "winapi 0.3.8 (registry+https://github.com/rust-lang/crates.io-index)",

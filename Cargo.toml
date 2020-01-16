@@ -4,6 +4,11 @@ edition = "2018"
 name = "spotifyd"
 version = "0.2.20"
 
+[dependencies.rspotify]
+git = "https://github.com/sabino/rspotify"
+branch = "master"
+version = "0.7.0"
+
 [dependencies]
 alsa = { version = "0.3", optional = true }
 chrono = "0.4"
@@ -20,7 +25,6 @@ lazy_static = "1.4.0"
 libc = "0.2"
 log = "0.4.6"
 percent-encoding = "2.1.0"
-rspotify = { version = "0.7.0", git = "https://github.com/sabino/rspotify" }
 serde = { version = "1.0.103", features = ["derive"] }
 serde_ini = "0.2.0"
 sha-1 = "0.8"
